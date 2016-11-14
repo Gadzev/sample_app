@@ -1,1 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+aleksandar:
+  name: Aleksandar Gadjev
+  email: gadzevalexandar@openmailbox.org
+  password_digest: <%= User.digest('password') %>
